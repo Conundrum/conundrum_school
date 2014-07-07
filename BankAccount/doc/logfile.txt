@@ -1,0 +1,45 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount
+-d
+C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\BankAccount.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\BankAccount.java...
+Constructing Javadoc information...
+C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\BankAccount.java:1: error: package comp102x does not exist
+import comp102x.IO;
+               ^
+Standard Doclet version 1.7.0_45
+Building tree for all the packages and classes...
+Generating C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\doc\BankAccount.html...
+Generating C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\doc\package-frame.html...
+Generating C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\doc\package-summary.html...
+Generating C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\doc\allclasses-frame.html...
+Generating C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\doc\allclasses-noframe.html...
+Generating C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\doc\index.html...
+Generating C:\Users\bthompso\Documents\GitHub\conundrum_school\BankAccount\doc\stylesheet.css...
+1 warning
