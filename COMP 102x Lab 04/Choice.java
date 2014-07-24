@@ -40,6 +40,34 @@ public class Choice
     public int compareWith(Choice anotherChoice)
     {
         // write your code after this line
+        int gameResults = 0;
+        if (this.type == anotherChoice.type)
+        {
+            // draw
+            gameResults = 0;
+        }
+        else if (this.type == 0 && anotherChoice.type == 2)
+        {
+            // rock crushes anotherChoice
+            gameResults = 1;
+        }
+        else if (this.type == 2 && anotherChoice.type == 0)
+        {
+            // rock crushes this
+            gameResults = -1;
+        }
+        else if (this.type > anotherChoice.type)
+        {
+            // this wins
+            gameResults = 1;
+        }
+        else if (anotherChoice.type > this.type)
+        {
+            //anotherChoice wins
+            gameResults = -1;
+        }
+        return gameResults;
+        
         
         
         
