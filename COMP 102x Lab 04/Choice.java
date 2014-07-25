@@ -87,11 +87,23 @@ public class Choice
     public void draw(Canvas canvas, int x, int y, int rotation)
     {
        // write your code after this line
-       
-       
-       
-       
-       
-       
+       switch (this.type)
+       {
+      
+         case 0:
+           choiceImage = new ColorImage("rock.png");
+           break;
+         case 1:
+           choiceImage = new ColorImage("paper.png");
+           break;
+         case 2:
+           choiceImage = new ColorImage("scissors.png");
+           break;
+        }
+        
+           canvas.add(choiceImage);
+           choiceImage.setX(x);
+           choiceImage.setY(y);
+           choiceImage.setRotation(rotation);
     }
 }
