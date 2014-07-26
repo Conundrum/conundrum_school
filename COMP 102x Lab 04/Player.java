@@ -52,8 +52,25 @@ public class Player
     public boolean playAgain()
     {    
         // write your code after this line
+        char playAgainInput;
+        do 
+        {
+            IO.outputln("Want to play again? (y/n)");
+            playAgainInput = IO.inputCharacter();
+            IO.outputln("test - playgaininput = " + playAgainInput);
+        } while (playAgainInput != 'y' && playAgainInput != 'Y' && playAgainInput != 'n' && playAgainInput != 'N');
+        
+        if (playAgainInput == 'y' || playAgainInput == 'Y')
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
         
         
+       
         
         
         
