@@ -17,7 +17,9 @@ public class Computer
     {
         // write your code after this line
         
-        
+        Random randomObject = new Random();
+        int computerNumber = randomObject.nextInt(3);
+        this.choice = new Choice(computerNumber);
         
         
         
